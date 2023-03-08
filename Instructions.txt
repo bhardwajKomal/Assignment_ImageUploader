@@ -1,0 +1,14 @@
+Steps to Execute the Project.
+Pre-Requisite: clone the project from git repository: https://github.com/bhardwajKomal/Assignment_ImageUploader.git
+1)Go to project folder->cd Project_Path
+2)Install npm.
+3)Now run the Project->ng serve.
+4)In app.component.html file, you can change the position in uploadImage function to verify the sequence updation.
+
+Actions preformed by the Application:
+1.	Create 6 boxes
+2.	When clicked on a box, it should select and show that image into it
+3.	Similarly each box should show an image which is selected by clicking on that particular box
+4.	Also provide an option to delete the image of a particular box
+5.	Fill box in series.i.e if i click on box 6 and box 3,4,5 is empty then the image will show in box 3 and so on
+6.	if all 6 images are filled and I remove the 2nd image then all images shift and the 6th box becomes empty.
